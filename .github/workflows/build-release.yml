@@ -45,7 +45,7 @@ jobs:
 
       - name: Build
         if: success()
-        run: npm ci
+        run: npm run build
 
       - name: Test
         if: success()
